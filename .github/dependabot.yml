@@ -33,3 +33,26 @@ updates:
           - 'minor'
           - 'patch'
 
+      # package.json の `dependencies` に記載されている package の minor version 更新をまとめる
+      production-dependencies-minor:
+        dependency-type: 'production'
+        update-types:
+          - 'minor'
+
+      # package.json の `dependencies` に記載されている package の patch version 更新をまとめる
+      production-dependencies-patch:
+        dependency-type: 'production'
+        update-types:
+          - 'patch'
+
+      # package.json の `devDependencies` に記載されている package の minor version 更新をまとめる
+      development-dependencies-minor:
+        dependency-type: 'development'
+        update-types:
+          - 'minor'
+
+      # package.json の `devDependencies` に記載されている package の patch version 更新をまとめる
+      development-dependencies-patch:
+        dependency-type: 'development'
+        update-types:
+          - 'patch'
