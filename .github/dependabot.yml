@@ -5,53 +5,37 @@ updates:
     target-branch: 'main'
     schedule:
       interval: 'daily'
-      time: '10:50'
+      time: '9:00'
       timezone: 'Asia/Tokyo'
     open-pull-requests-limit: 10
-    # ignore:
-    #   # major version update を除外
-    #   - dependency-name: '*'
-    #     update-types:
-    #       - version-update:semver-major
 
     groups:
       react:
         patterns:
           - react
           - react-dom
-          - '@types/react'
-          - '@types/react-dom'
-        update-types:
-          - 'minor'
-          - 'patch'
+
       storybook:
         patterns:
           - storybook
           - '@storybook/*'
           - 'storybook-addon'
-        update-types:
-          - 'minor'
-          - 'patch'
 
-      # package.json の `dependencies` に記載されている package の minor version 更新をまとめる
       production-dependencies-minor:
         dependency-type: 'production'
         update-types:
           - 'minor'
 
-      # package.json の `dependencies` に記載されている package の patch version 更新をまとめる
       production-dependencies-patch:
         dependency-type: 'production'
         update-types:
           - 'patch'
 
-      # package.json の `devDependencies` に記載されている package の minor version 更新をまとめる
       development-dependencies-minor:
         dependency-type: 'development'
         update-types:
           - 'minor'
 
-      # package.json の `devDependencies` に記載されている package の patch version 更新をまとめる
       development-dependencies-patch:
         dependency-type: 'development'
         update-types:
