@@ -4153,16 +4153,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.2.17":
-  version: 18.2.18
-  resolution: "@types/react-dom@npm:18.2.18"
+"@types/react-dom@npm:^18.2.22":
+  version: 18.2.22
+  resolution: "@types/react-dom@npm:18.2.22"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 4ef7725b4cebd4a32e049097ddfdfd855a178e63ead97ab6d3084872e7d6c1acd71aa923488123cd1015f0e0b11489d2b44f674a1df8fe82d7827eabbec6dbf1
+  checksum: 310da22244c1bb65a7f213f8727bda821dd211cfb2dd62d1f9b28dd50ef1c196d59e908494bd5f25c13a3844343f3a6135f39fb830aca6f79646fa56c1b56c08
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.2.43":
+"@types/react@npm:*, @types/react@npm:>=16":
   version: 18.2.48
   resolution: "@types/react@npm:18.2.48"
   dependencies:
@@ -4170,6 +4170,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 2e56ea6bd821ae96bd943f727a59d85384eaf5f8a3e6fce4fa1d34453e32d8eedda742432b3857fa0de7a4214bf84ce4239757eb52918e76452c00384731e585
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.67":
+  version: 18.2.67
+  resolution: "@types/react@npm:18.2.67"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: d7e248dbe8d9d3b05f0d8e128d615fc9c85aa2c5d15634271d20cb9b343dbeffb0875f31a44e7ac63b42afc25949bd4c3633b7ebee45ee4666591ca934a8dffb
   languageName: node
   linkType: hard
 
@@ -6093,12 +6104,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:^0.4.5":
-  version: 0.4.5
-  resolution: "eslint-plugin-react-refresh@npm:0.4.5"
+"eslint-plugin-react-refresh@npm:^0.4.6":
+  version: 0.4.6
+  resolution: "eslint-plugin-react-refresh@npm:0.4.6"
   peerDependencies:
     eslint: ">=7"
-  checksum: f1526f55829f7eb4d9031fa082cb967f0bc578e8e2a3dfb9e5a47fc31cb0785bfa58ae717157f57241f7086a8790a88a6ec82743eaa5ca392a6b0fdb379169f8
+  checksum: 104501b15139de06f9fce748fe5bc099bcf03c6ec2fa9c58e8fefbe479e81246ecb8f06031f6804dacfc2039507f609c97a2d6b2b5e7f15cbc33ef5b29cc55fd
   languageName: node
   linkType: hard
 
@@ -10235,15 +10246,15 @@ __metadata:
     "@storybook/react": "npm:^7.6.8"
     "@storybook/react-vite": "npm:^7.6.8"
     "@storybook/test": "npm:^7.6.8"
-    "@types/react": "npm:^18.2.43"
-    "@types/react-dom": "npm:^18.2.17"
+    "@types/react": "npm:^18.2.67"
+    "@types/react-dom": "npm:^18.2.22"
     "@typescript-eslint/eslint-plugin": "npm:^6.14.0"
     "@typescript-eslint/parser": "npm:^6.14.0"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     core-js-compat: "npm:^3.31.0"
     eslint: "npm:^8.55.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.5"
+    eslint-plugin-react-refresh: "npm:^0.4.6"
     eslint-plugin-storybook: "npm:0.6.15"
     prettier: "npm:2.7"
     react: "npm:^18.2.0"
